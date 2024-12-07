@@ -27,6 +27,18 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Add clickable link at the top
+st.markdown(
+    """
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="techhtml.html" target="_blank" style="font-size: 18px; color: white; text-decoration: none;">
+            Click here to Go back to Main Site
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 # App Title
 st.title("Multi-Function App")
 
