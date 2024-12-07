@@ -1,3 +1,4 @@
 streamlit==1.18.1
 gradio==3.24.0
 gradio-client==0.0.10
+altair==5.5.0
