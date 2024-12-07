@@ -3,7 +3,7 @@ from gradio_client import Client, handle_file
 from PIL import Image
 
 # Initialize Gradio clients
-image_client = Client("DakuSir/ESRGAN")
+image_client = Client("doevent/Face-Real-ESRGAN")
 description_client = Client("https://cd25840ad2cbe60906.gradio.live/")
 
 # Streamlit App
